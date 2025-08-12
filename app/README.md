@@ -20,7 +20,7 @@ Aplicativo Flutter que consome a **Rick and Morty API** para exibir informaçõe
   - Primeira aparição (episódio)
 - **Navegação** da listagem para o detalhe.
 
-###  Funcionalidades opcionais e extras
+### Funcionalidades opcionais e extras
 - **Busca por nome** (parcial ou completa).
 - **Tradução PT-BR** de todos os campos e nomes de episódios, com dicionário customizado.
 - **Hero Animation** entre a imagem do card e a imagem de detalhe, para transições mais suaves.
@@ -38,13 +38,33 @@ Aplicativo Flutter que consome a **Rick and Morty API** para exibir informaçõe
 
 ---
 
-#  Demonstração
+##  Arquitetura do Projeto
+O projeto segue uma arquitetura **MVVM simplificada** (Model–View–ViewModel), organizada da seguinte forma:
 
-###  Demonstração do App via Youtube Shorts
+- **Model** → Representa os dados da aplicação (ex.: `Character`).
+- **View** → As telas que exibem as informações (`characters_page.dart`, `character_detail_page.dart`).
+- **ViewModel** → Providers que gerenciam estado e lógica (`character_list_provider.dart`, `character_detail_provider.dart`).
+
+---
+
+##  Padrões de Projeto Utilizados
+- **Singleton** → Implementado no `ApiService` para garantir uma única instância de serviço de API.
+- **Factory** → Utilizado no `Character.fromJson` para criar objetos a partir de dados JSON.
+- **Provider Pattern** → Para injeção de dependência e gerenciamento de estado reativo.
+- **Repository-like approach** *(simplificado)* → O `ApiService` centraliza as chamadas à API, separando regras de negócio da interface.
+- **Hero Animation Pattern** → Aplicado na transição visual entre lista e detalhe.
+
+---
+
+##  Demonstração
+
+### Demonstração do App via Youtube Shorts
 [![->](https://img.youtube.com/vi/Cxu-mGS5v94/0.jpg)](https://youtube.com/shorts/Cxu-mGS5v94?feature=share)
 
 ---
 
+##  Estrutura de Pastas
+```plaintext
 ##  Estrutura de Pastas
 ```plaintext
 lib/
