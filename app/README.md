@@ -53,10 +53,10 @@ assets/
 └── images/             # Ícones e imagens do layout
 ```
 
-## Como Rodar o Projeto
----
+# Como Rodar o Projeto
 
-# Pré-requisitos
+
+## Pré-requisitos
 ___
 
 -> Flutter SDK instalado - Guia Oficial -> (https://docs.flutter.dev/get-started/install)
@@ -67,16 +67,27 @@ ___
 
 ---
 
-▶ Passos para execução
+# Passos para execução
 
-# Clone o projeto
+## Clone o projeto
 git clone https://github.com/<seu-usuario>/kode-start.git
 
-# Acesse a pasta do projeto
+## Acesse a pasta do projeto
 cd kode-start/app
 
-# Instale as dependências
+## Instale as dependências
 flutter pub get
 
-# Rode o app
+## Rode o app
 flutter run
+
+---
+
+# Contato
+
+📧 Email: leticialopesdm@gmail.com
+🔗 LinkedIn: www.linkedin.com/in/leticia-lopes-a81314269
+
+
+
+
