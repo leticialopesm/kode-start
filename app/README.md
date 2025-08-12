@@ -43,8 +43,6 @@ Aplicativo Flutter que consome a **Rick and Morty API** para exibir informaçõe
 ###  Demonstração do App via Youtube Shorts
 [![->](https://img.youtube.com/vi/Cxu-mGS5v94/0.jpg)](https://youtube.com/shorts/Cxu-mGS5v94?feature=share)
 
-- Link: https://youtube.com/shorts/Cxu-mGS5v94?feature=share 
-
 ---
 
 ##  Estrutura de Pastas
