@@ -51,19 +51,20 @@ lib/
 ├── main.dart           # Ponto de entrada
 assets/
 └── images/             # Ícones e imagens do layout
+```
 
+🚀 Como Rodar o Projeto
+📋 Pré-requisitos
+Flutter SDK instalado → Guia Oficial
 
-###  Como rodar o projeto:
+Dispositivo ou emulador configurado (Android/iOS)
 
-## Pré-requisitos
-- Flutter SDK instalado → Guia Oficial -> (https://docs.flutter.dev/get-started/install)
+Ter o repositório clonado
 
-- Dispositivo ou emulador configurado (Android/iOS)
-
-- Ter o repositório clonado
-
-### Passos para execução
-
+▶ Passos para execução
+bash
+Copiar
+Editar
 # Clone o projeto
 git clone https://github.com/<seu-usuario>/kode-start.git
 
