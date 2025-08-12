@@ -4,7 +4,7 @@ Aplicativo Flutter que consome a **Rick and Morty API** para exibir informaçõe
 
 ---
 
-## 📌 Funcionalidades Implementadas
+## Funcionalidades Implementadas
 
 ###  Funcionalidades obrigatórias
 - **Lista de personagens** com rolagem infinita (scroll infinito/paginação).
@@ -56,8 +56,10 @@ assets/
 ## Como Rodar o Projeto
 ---
 
-#Pré-requisitos
--> Flutter SDK instalado → Guia Oficial -> (https://docs.flutter.dev/get-started/install)
+# Pré-requisitos
+___
+
+-> Flutter SDK instalado - Guia Oficial -> (https://docs.flutter.dev/get-started/install)
 
 -> Dispositivo ou emulador configurado (Android/iOS)
 
